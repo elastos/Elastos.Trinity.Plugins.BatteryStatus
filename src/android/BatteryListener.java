@@ -18,6 +18,7 @@
 */
 package org.apache.cordova.batterystatus;
 
+import org.elastos.trinity.dapprt.TrinityPlugin;
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.LOG;
@@ -31,7 +32,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 
-public class BatteryListener extends CordovaPlugin {
+public class BatteryListener extends TrinityPlugin {
 
     private static final String LOG_TAG = "BatteryManager";
 
