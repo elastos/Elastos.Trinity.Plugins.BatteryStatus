@@ -19,8 +19,9 @@
 
 #import <Foundation/Foundation.h>
 #import <Cordova/CDVPlugin.h>
+#import "TrinityPlugin.h"
 
-@interface CDVBattery : CDVPlugin {
+@interface CDVBattery : TrinityPlugin {
     UIDeviceBatteryState state;
     float level;
     bool isPlugged;
