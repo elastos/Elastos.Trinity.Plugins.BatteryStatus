@@ -37,7 +37,9 @@ Applications may use `window.addEventListener` to attach an event listener for a
 
 ## Installation
 
-    cordova plugin add elastos-trinity-plugins-battery-status
+    cordova plugin add https://github.com/elastos/Elastos.Trinity.Plugins.BatteryStatus
+
+    The plugins field of dapp manifest.json adds Battery values, such as "plugins": ["XXXX", "Battery", "XXXX"]
 
 ## Status object
 
