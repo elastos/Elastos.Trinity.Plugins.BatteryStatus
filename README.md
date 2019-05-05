@@ -21,10 +21,6 @@ description: Get events for device battery level.
 #         under the License.
 -->
 
-|AppVeyor|Travis CI|
-|:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/elastos-trinity-plugins-battery-status?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/elastos-trinity-plugins-battery-status)|[![Build Status](https://travis-ci.org/apache/elastos-trinity-plugins-battery-status.svg?branch=master)](https://travis-ci.org/apache/elastos-trinity-plugins-battery-status)|
-
 # elastos-trinity-plugins-battery-status
 
 This plugin provides an implementation of an old version of the [Battery Status Events API][w3c_spec]. It adds the following three events to the `window` object:
@@ -36,8 +32,6 @@ This plugin provides an implementation of an old version of the [Battery Status 
 Applications may use `window.addEventListener` to attach an event listener for any of the above events after the `deviceready` event fires.
 
 ## Installation
-
-    cordova plugin add https://github.com/elastos/Elastos.Trinity.Plugins.BatteryStatus
 
     The plugins field of dapp manifest.json adds Battery values, such as "plugins": ["XXXX", "Battery", "XXXX"]
 
@@ -64,8 +58,6 @@ Fires when the battery charge percentage changes by at least 1 percent, or when 
 
 - iOS
 - Android
-- Windows
-- Browser (Chrome, Firefox, Opera)
 
 ### Quirks: Android
 
@@ -87,8 +79,6 @@ Fires when the battery charge percentage reaches the low charge threshold. This 
 
 - iOS
 - Android
-- Windows
-- Browser (Chrome, Firefox, Opera)
 
 ## batterycritical event
 
@@ -106,8 +96,6 @@ Fires when the battery charge percentage reaches the critical charge threshold. 
 
 - iOS
 - Android
-- Windows
-- Browser (Chrome, Firefox, Opera)
 
 
 [w3c_spec]: http://www.w3.org/TR/2011/WD-battery-status-20110915/
